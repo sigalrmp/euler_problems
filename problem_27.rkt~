@@ -44,5 +44,3 @@
 (define (solve)
   (define ab (gen-ab -999 999 -1000 1000))
   (* (caar ab) (cdar ab)))
-
-(solve)

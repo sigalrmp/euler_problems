@@ -23,5 +23,3 @@
 (define (solve side-len)
   (+ 1
      (solve-h 1 1 side-len)))
-
-(solve 1001)
