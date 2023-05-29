@@ -1,0 +1,5 @@
+#lang racket
+(define (cons-list l1 l2)
+  (if (empty? l1)
+      l2
+      (cons-list (cdr l1) (cons (car l1) l2))))
