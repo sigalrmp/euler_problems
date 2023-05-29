@@ -37,3 +37,5 @@
 
 (define (solve max)
   (solve-h max (list) max))
+
+(solve 100)
